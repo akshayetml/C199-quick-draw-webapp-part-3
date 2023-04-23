@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+canvas 
+  {
+    border:1px solid crimson;
+    border-radius:500px;
+    margin-top:150px;
+    box-shadow:(5px 5px 1px chartreuse);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 500px chartreuse;}
+  to {box-shadow: 1px 1px 500px red;}
+}
+
+
+#score{
+    font-size: 30px;
+    margin-left: 20px;
+    color: brown;
+}
+
+#timer{
+    font-size: 30px;
+    float: right;
+    margin-right: 20px;
+    color: aquamarine;
+}
+
+#label{
+    color: salmon;
+    font-size: 20px;
+}
+
+#confidence{
+    color: chartreuse;
+    font-size: 20px;
+}
+
+#Sketch{
+    color: darksalmon;
+    font-size: 40px;
+     
+}
+
+#show_sketch{
+    float: right;
+}
